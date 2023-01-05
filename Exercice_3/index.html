@@ -16,5 +16,17 @@
   <div class="color red" ></div>
   <div class="color blue" ></div>
 </div>
+
+<script>
+  let text = document.querySelector('#text');
+  let green = document.querySelector('.green');
+  let red = document.querySelector('.red');
+  let blue = document.querySelector('.blue');
+  green.addEventListener("click", ()=> text.style.color="green")
+  red.addEventListener("click", () => text.style.color="red")
+  blue.addEventListener("click", () => text.style.color="blue")
+
+
+</script>
 </body>
 </html>

@@ -7,4 +7,15 @@
   <body>
       <img src="images/image1.jpg" id="image1"/>
   </body>
+
+  <script>
+    let image = document.querySelector('#image1');
+    image.addEventListener("mouseenter", function(){
+      image.style.border="3px solid red"
+    })
+    image.addEventListener("mouseleave", function(){
+      console.log('OK')
+      image.style.border=""
+    })
+    </script>
 </html>
